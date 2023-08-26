@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Frontend Assignment</title>
+</head>
+<body>
+  <header>
+    <nav>
+      <ul id="navbar">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li>
+          <a href="#product">Our Products</a>
+          <ul class="submenu">
+            <li><a href="#p1">Product 1</a></li>
+            <li><a href="#p2">Product 2</a></li>
+            <li><a href="#p3">Product 3</a></li>
+            <li><a href="#p4">Product 4</a></li>
+          </ul>
+        </li>
+        <li><a href="#contact">Contact Us</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="banner">
+    <h1>Fresh 2022 look</h1>
+  </section>
+
+  <section class="product-listing">
+    <h2>Our Products</h2>
+    <div class="product-card">
+      <h3>Product 1</h3>
+      <p>Description of Product 1</p>
+    </div>
+    <div class="product-card">
+      <h3>Product 2</h3>
+      <p>Description of Product 2</p>
+    </div>
+    <div class="product-card">
+      <h3>Product 3</h3>
+      <p>Description of Product 3</p>
+    </div>
+    <div class="product-card">
+      <h3>Product 4</h3>
+      <p>Description of Product 4</p>
+    </div>
+  </section>
+
+  <section class="contact-us">
+    <h2>Contact Us</h2>
+    <form id="contact-form">
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name" required>
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" required>
+      <button type="submit">Submit</button>
+    </form>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
